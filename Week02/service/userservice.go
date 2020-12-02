@@ -11,6 +11,6 @@ func NewUserService() *UserService {
 }
 
 func (this *UserService) GetUser(id int) (*dao.UserEntity, error) {
-	_, err := this.dao.SelectById(id)
+	_, err := this.GetUser(id)
 	return nil, err
 }
