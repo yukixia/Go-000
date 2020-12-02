@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/yukixia/dao"
-	"github.com/yukixia/service"
+	"github.com/yukixia/Go-000/Week02/dao"
+	"github.com/yukixia/Go-000/Week02/service"
 
 	"github.com/pkg/errors"
 )
