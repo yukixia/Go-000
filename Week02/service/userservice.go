@@ -3,14 +3,10 @@ package service
 import "github.com/yukixia/Go-000/Week02/dao"
 
 type UserService struct {
-	dao *dao.UserEntity
+	user *dao.UserEntity
 }
 
-func NewUserService() *UserService {
-	return &UserService{dao: dao.NewUser()}
-}
-
-func (this *UserService) GetUser(id int) (*dao.UserEntity, error) {
-	_, err := this.GetUser(id)
+func GetUser(id int) (*dao.UserEntity, error) {
+	_, err := dao.SelectById(id)
 	return nil, err
 }
