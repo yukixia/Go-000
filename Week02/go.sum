@@ -1,0 +1,4 @@
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/yukixia/Go-000 v0.0.0-20201202155241-99de4fce9f08 h1:/9/gavGA90HSp5tYCPGpYRgEkzKqB4rDv2OJT4KbWak=
+github.com/yukixia/Go-000 v0.0.0-20201202155241-99de4fce9f08/go.mod h1:kyRyd+qeW33G1zYNZ9M5EJiru50R5gMzIXuOGd38+XE=
